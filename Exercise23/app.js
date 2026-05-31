@@ -1,9 +1,13 @@
-// Use object destructuring to extract the make and the model properties 
-// from the object {make:"Tayota", model : "Corrola", year : 2020}
+// Create function calculateArea that takes width and height as  parameters and returns the area.
+//  if no height is provided, it should default to width (for calculating the area of the width)
 
-const Car = {make:"Tayota", model : "Corrola", year : 2020};
+function calculateArea(width, height = width){
 
-const [first, second , third] = Car
+    return width * height;
+}
 
-console.log(first) // red
-console.log(third) // blue
+// with height
+console.log(calculateArea(10,20)) // 200
+
+// with no height
+console.log(calculateArea(10)) // 20
