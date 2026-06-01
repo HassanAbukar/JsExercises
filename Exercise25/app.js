@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> d237eb6c50add6b75b23002430472c8b8598c998
 // 1. Use the spread operator to combine two arrays [1,2,3] and [4,5,6] into single array
 // 2. create funtion multiply that takes any number of arguement and returns their product using the rest parameter
 
@@ -17,4 +20,8 @@ function multiply(...numbers){
     return numbers.reduce((total, num ) => total * num, 1);
 }
 
+<<<<<<< HEAD
 console.log(multiply(20,34,35)) // natiijo:
+=======
+console.log(multiply(20,34,35)) // natiijo:23800  
+>>>>>>> d237eb6c50add6b75b23002430472c8b8598c998
